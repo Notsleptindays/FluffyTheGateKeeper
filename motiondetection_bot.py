@@ -31,9 +31,9 @@ import Queue
 
 
 
-chat_id = 12181301
+chat_id = 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
-TOKEN = "639956666:AAFwq2Wi9ryJwkwBlFx5sg_4D3UG1jZ-YGg"
+TOKEN = ""
 q = Queue.Queue()
 s = serial.Serial('/dev/ttyACM0', timeout = 1)
 alarm_state = 0
